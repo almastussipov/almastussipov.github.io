@@ -1,33 +1,22 @@
-on:
-  workflow_dispatch:
-  push:
-    branches: main
+project:
+  type: website
 
-name: Quarto Publish
+website:
+  title: "ALMASTUSSIPOV"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
 
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Install Python and Dependencies
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-      - run: pip install jupyter
-      - run: pip install -r requirements.txt
-
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+    date-format: "D MMMM YYYY"
+    include-in-header:
+      - text: |
+          <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
