@@ -1,5 +1,54 @@
 ---
 title: "About"
+format:
+  html:
+    theme: journal
+    toc: true
 ---
 
-About this site
+# Almas Tussipov
+
+**Finance Manager · Business Analyst**  
+[Email](mailto:tussipov.a.e@gmail.com) · [Phone](tel:+16175181108) · 100 Heard Street, Chelsea, MA
+
+---
+
+## Profile
+Finance manager and business analyst with experience leading budgeting, analytics, reporting systems, and process improvements across multiple industries. Strong at partnering with product and operations teams to turn data into decisions.
+
+## Professional Experience
+
+### Finance Manager — BTS Digital Venture  
+*Astana, Kazakhstan · Feb 2022 – Aug 2024*
+- Led day-to-day financial operations and developed reporting systems.
+- Drove budgeting/forecasting and supported analytical & management reporting.
+- Performed regular and ad-hoc analysis of company and product performance.
+- Designed complex financial models for product decisions.
+
+### Finance & Operations Manager — EDMAR GROUP LLP  
+*Astana, Kazakhstan · Apr 2021 – Feb 2022*
+- Managed 8 subsidiary companies (logistics, copper scrap processing, ore mining & processing, airline/rail ticket sales).
+- Prepared annual/current financial budgets for subsidiaries and controlled execution.
+- Conducted financial/economic analysis to improve management processes and business performance.
+
+### Associate — PwC  
+*Astana, Kazakhstan · Jan 2019 – Apr 2021*
+- Provided audit consulting on financial reporting for local and international clients.
+- Maintained effective communication with clients and team members.
+
+## Education
+**Boston University**, Boston, MA — *MS, Applied Business Analytics* (2024 – present)  
+**Nazarbayev University**, Astana, Kazakhstan — *BA, Political Science & International Relations* (2013 – 2018)
+
+## Skills
+- Financial analysis & analytical skills; statistical analysis; financial modeling  
+- Data analysis; business intelligence tools  
+- Strategic thinking; project management; leadership & teamwork
+
+## Languages
+- Kazakh — Native  
+- English — Advanced  
+- Russian — Advanced
+
+## Interests & Hobbies
+Ironman race participant (2022), Tennis, Running, Swimming
