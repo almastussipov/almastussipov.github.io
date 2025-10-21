@@ -8,15 +8,22 @@ format:
 
 # Almas Tussipov
 
-**Finance Manager · Business Analyst**  
-[Email](mailto:almasnu@bu.edu) · [Phone](tel:+16175181108) · 202 Mill Road, Everett, MA
+**Finance Manager · Business Analyst**
+
+::: {.contact}
+- <i class="fa-solid fa-envelope"></i> [almasnu@bu.edu](mailto:almasnu@bu.edu)
+- <i class="fa-solid fa-phone"></i> [+1&nbsp;617&nbsp;518&nbsp;1108](tel:+16175181108)
+- <i class="fa-solid fa-location-dot"></i> [202 Mill Road, Everett, MA](https://www.google.com/maps/search/?api=1&query=202%20Mill%20Road%2C%20Everett%2C%20MA)
+- <i class="fa-brands fa-github"></i> [github.com/almastussipov](https://github.com/almastussipov)
+- <i class="fa-brands fa-linkedin"></i> [linkedin.com/in/almas-tussipov](https://www.linkedin.com/in/almas-tussipov)
+:::
 
 ---
 
-## Profile
+## <i class="fa-solid fa-user"></i> Profile
 Finance manager and business analyst with experience leading budgeting, analytics, reporting systems, and process improvements across multiple industries. Strong at partnering with product and operations teams to turn data into decisions.
 
-## Professional Experience
+## <i class="fa-solid fa-briefcase"></i> Professional Experience
 
 ### Finance Manager — BTS Digital Venture  
 *Astana, Kazakhstan · Feb 2022 – Aug 2024*
@@ -28,7 +35,7 @@ Finance manager and business analyst with experience leading budgeting, analytic
 ### Finance & Operations Manager — EDMAR GROUP LLP  
 *Astana, Kazakhstan · Apr 2021 – Feb 2022*
 - Managed 8 subsidiary companies (logistics, copper scrap processing, ore mining & processing, airline/rail ticket sales).
-- Prepared annual/current financial budgets for subsidiaries and controlled execution.
+- Prepared annual/current financial budgets and controlled execution.
 - Conducted financial/economic analysis to improve management processes and business performance.
 
 ### Associate — PwC  
@@ -36,19 +43,19 @@ Finance manager and business analyst with experience leading budgeting, analytic
 - Provided audit consulting on financial reporting for local and international clients.
 - Maintained effective communication with clients and team members.
 
-## Education
-**Boston University**, Boston, MA — *MS, Applied Business Analytics* (2024 – present)  
-**Nazarbayev University**, Astana, Kazakhstan — *BA, Political Science & International Relations* (2013 – 2018)
+## <i class="fa-solid fa-graduation-cap"></i> Education
+**Boston University**, Boston, MA — *MS, Applied Business Analytics* (2024–present)  
+**Nazarbayev University**, Astana, Kazakhstan — *BA, Political Science & International Relations* (2013–2018)
 
-## Skills
-- Financial analysis & analytical skills; statistical analysis; financial modeling  
-- Data analysis; business intelligence tools  
-- Strategic thinking; project management; leadership & teamwork
+## <i class="fa-solid fa-screwdriver-wrench"></i> Skills
+- Financial & statistical analysis · Financial modeling  
+- Data analysis · Business intelligence tools  
+- Strategic thinking · Project management · Leadership & teamwork
 
-## Languages
+## <i class="fa-solid fa-language"></i> Languages
 - Kazakh — Native  
 - English — Advanced  
 - Russian — Advanced
 
-## Interests & Hobbies
+## <i class="fa-solid fa-heart"></i> Interests & Hobbies
 Ironman race participant (2022), Tennis, Running, Swimming

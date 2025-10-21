@@ -1,1 +1,9 @@
-/* css styles */
+.contact {
+  margin: .5rem 0 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+.contact li { margin: .25rem 0; }
+.contact i { width: 1.1rem; margin-right: .45rem; }
+
+h2 > i, h3 > i { margin-right: .35rem; opacity: .9; }
