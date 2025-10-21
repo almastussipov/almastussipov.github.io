@@ -12,10 +12,10 @@ format:
 
 ::: {.contact}
 - <i class="fa-solid fa-envelope"></i> [almasnu@bu.edu](mailto:almasnu@bu.edu)
-- <i class="fa-solid fa-phone"></i> [+1&nbsp;617&nbsp;518&nbsp;1108](tel:+16175181108)
-- <i class="fa-solid fa-location-dot"></i> [202 Mill Road, Everett, MA](https://www.google.com/maps/search/?api=1&query=202%20Mill%20Road%2C%20Everett%2C%20MA)
-- <i class="fa-brands fa-github"></i> [github.com/almastussipov](https://github.com/almastussipov)
+- <i class="fa-solid fa-phone"></i> [+1 617 518 1108](tel:+16175181108)
+- <i class="fa-solid fa-location-dot"></i> 202 Mill Road, Everett MA
 - <i class="fa-brands fa-linkedin"></i> [linkedin.com/in/almas-tussipov](https://www.linkedin.com/in/almas-tussipov)
+
 :::
 
 ---
