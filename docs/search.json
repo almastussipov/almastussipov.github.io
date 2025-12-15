@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Course: AD688 – Cloud Analytics for Business (Boston University)\nProject Overview:\nAs part of a team-based analytics project, we analyzed trends in the Business Analytics, Data Science, and Machine Learning job market. The goal was to understand hiring demand, required skills, salary drivers, and the impact of remote work using real-world job posting data.\nMethods & Tools:\n- Python (data analysis, preprocessing)\n- SQL\n- Regression models (Polynomial Regression, Random Forest)\n- K-means clustering\n- Data visualization & presentation\nKey Contributions & Results:\n- Built and compared salary prediction models to identify key compensation drivers\n- Applied clustering to segment analytics roles (Data Analysts, ML Engineers, Big Data Engineers, entry-level roles)\n- Identified skill gaps and hiring trends across industries and job types"
+  },
+  {
+    "objectID": "projects.html#cloud-analytics-for-business",
+    "href": "projects.html#cloud-analytics-for-business",
+    "title": "Projects",
+    "section": "",
+    "text": "Course: AD688 – Cloud Analytics for Business (Boston University)\nProject Overview:\nAs part of a team-based analytics project, we analyzed trends in the Business Analytics, Data Science, and Machine Learning job market. The goal was to understand hiring demand, required skills, salary drivers, and the impact of remote work using real-world job posting data.\nMethods & Tools:\n- Python (data analysis, preprocessing)\n- SQL\n- Regression models (Polynomial Regression, Random Forest)\n- K-means clustering\n- Data visualization & presentation\nKey Contributions & Results:\n- Built and compared salary prediction models to identify key compensation drivers\n- Applied clustering to segment analytics roles (Data Analysts, ML Engineers, Big Data Engineers, entry-level roles)\n- Identified skill gaps and hiring trends across industries and job types"
+  },
+  {
+    "objectID": "projects.html#quantitative-methods-for-finance",
+    "href": "projects.html#quantitative-methods-for-finance",
+    "title": "Projects",
+    "section": "Quantitative Methods for Finance",
+    "text": "Quantitative Methods for Finance\nCourse: AD685 – Quantitative Methods for Finance (Boston University)\nProject Overview:\nConducted a quantitative analysis of Airbnb listings in Melbourne to understand the key factors influencing pricing and to build predictive models for listing prices.\nMethods & Tools:\n- Python and statistical modeling\n- Regression and predictive modeling\n- Exploratory financial data analysis\n- Feature selection and model evaluation\nKey Contributions & Results:\n- Analyzed listing characteristics (location, property features, demand indicators)\n- Identified the most significant drivers of Airbnb pricing\n- Built predictive models to estimate listing prices\n- Interpreted results in a financial and business context\nOutcome:\nDeveloped a data-driven pricing framework demonstrating how quantitative methods can support revenue optimization and investment decisions in short-term rental markets."
+  },
+  {
+    "objectID": "projects.html#financial-operations-optimization-gold-mining-processing-company",
+    "href": "projects.html#financial-operations-optimization-gold-mining-processing-company",
+    "title": "Projects",
+    "section": "Financial Operations Optimization – Gold Mining & Processing Company",
+    "text": "Financial Operations Optimization – Gold Mining & Processing Company\nRole: Finance Manager\nProject Overview:\nLed financial and operational analysis for a company engaged in gold mining and gold processing. The objective was to improve operational efficiency, identify bottlenecks, and increase overall revenue.\nMethods & Tools:\n- End-to-end production process analysis\n- Financial performance analysis\n- Operational controls, checklists, and KPI tracking\n- Workforce productivity optimization\nKey Contributions & Results:\n- Analyzed the full production workflow to identify operational bottlenecks\n- Implemented controls and standardized checklists across operations\n- Optimized workforce scheduling and labor utilization\n- Increased company revenue by approximately 20%\n- Improved efficiency without increasing headcount\nOutcome:\nSuccessfully translated financial analysis into operational improvements, delivering measurable revenue growth and sustainable process optimization.\n\n\n\n← Back: About\n\nNext: CV →"
+  },
+  {
+    "objectID": "home_old.html",
+    "href": "home_old.html",
+    "title": "Welcome to My Website",
+    "section": "",
+    "text": "Welcome to my Quarto website.\n\n\nI’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University).\nI’ve led budgeting, reporting, and process-improvement initiatives, and I enjoy pairing data analysis with practical decision-making.\n\nCurrent: Graduate student, Boston University (Applied Business Analytics)\nPreviously: Finance Manager at BTS Digital Venture; Finance & Operations Manager at EDMAR GROUP LLP; Associate at PwC\nSkills: Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking\nLanguages: Kazakh (Native), English (Advanced), Russian (Advanced)\n\n👉 See the About page for my full CV."
+  },
+  {
+    "objectID": "home_old.html#about-me-quick-intro",
+    "href": "home_old.html#about-me-quick-intro",
+    "title": "Welcome to My Website",
+    "section": "",
+    "text": "I’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University).\nI’ve led budgeting, reporting, and process-improvement initiatives, and I enjoy pairing data analysis with practical decision-making.\n\nCurrent: Graduate student, Boston University (Applied Business Analytics)\nPreviously: Finance Manager at BTS Digital Venture; Finance & Operations Manager at EDMAR GROUP LLP; Associate at PwC\nSkills: Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking\nLanguages: Kazakh (Native), English (Advanced), Russian (Advanced)\n\n👉 See the About page for my full CV."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "",
+    "section": "",
+    "text": "almasnu@bu.edu\n +1 617 518 1108\n 202 Mill Road, Everett MA\n linkedin.com/in/almas-tussipov\n\n\n\n\n\n← Back: CV\n\nBack to About ↑"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "CV",
+    "section": " Profile",
+    "text": "Profile\nFinance manager and business analyst with experience leading budgeting, analytics, reporting systems, and process improvements across multiple industries. Strong at partnering with product and operations teams to turn data into decisions."
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "CV",
+    "section": " Professional Experience",
+    "text": "Professional Experience\n\nFinance Manager — BTS Digital Venture\nAstana, Kazakhstan · Feb 2022 – Aug 2024 - Led day-to-day financial operations and developed reporting systems. - Drove budgeting/forecasting and supported analytical & management reporting. - Performed regular and ad-hoc analysis of company and product performance. - Designed complex financial models for product decisions.\n\n\nFinance & Operations Manager — EDMAR GROUP LLP\nAstana, Kazakhstan · Apr 2021 – Feb 2022 - Managed 8 subsidiary companies (logistics, copper scrap processing, ore mining & processing, airline/rail ticket sales). - Prepared annual/current financial budgets and controlled execution. - Conducted financial/economic analysis to improve management processes and business performance.\n\n\nAssociate — PwC\nAstana, Kazakhstan · Jan 2019 – Apr 2021 - Provided audit consulting on financial reporting for local and international clients. - Maintained effective communication with clients and team members."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": " Education",
+    "text": "Education\nBoston University, Boston, MA — MS, Applied Business Analytics (2024–present)\nNazarbayev University, Astana, Kazakhstan — BA, Political Science & International Relations (2013–2018)"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "CV",
+    "section": " Skills",
+    "text": "Skills\n\nFinancial & statistical analysis · Financial modeling\n\nData analysis · Business intelligence tools\n\nStrategic thinking · Project management · Leadership & teamwork"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "CV",
+    "section": " Languages",
+    "text": "Languages\n\nKazakh — Native\n\nEnglish — Advanced\n\nRussian — Advanced"
+  },
+  {
+    "objectID": "cv.html#interests-hobbies",
+    "href": "cv.html#interests-hobbies",
+    "title": "CV",
+    "section": " Interests & Hobbies",
+    "text": "Interests & Hobbies\nIronman race participant (2022), Tennis, Running, Swimming\n\n\n\n← Back: Projects\n\nNext: Contact →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University). I’ve led budgeting, reporting, and process-improvement initiatives, and I enjoy pairing data analysis with practical decision-making.\n\nCurrent: Graduate student, Boston University (Applied Business Analytics)\nPreviously: Finance Manager at BTS Digital Venture; Finance & Operations Manager at EDMAR GROUP LLP; Associate at PwC\nSkills: Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking\nLanguages: Kazakh (Native), English (Advanced), Russian (Advanced)"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "I’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University). I’ve led budgeting, reporting, and process-improvement initiatives, and I enjoy pairing data analysis with practical decision-making.\n\nCurrent: Graduate student, Boston University (Applied Business Analytics)\nPreviously: Finance Manager at BTS Digital Venture; Finance & Operations Manager at EDMAR GROUP LLP; Associate at PwC\nSkills: Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking\nLanguages: Kazakh (Native), English (Advanced), Russian (Advanced)"
+  }
+]

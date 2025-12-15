@@ -1,25 +1,55 @@
 ---
-title: "Welcome to My Website"
-author: "Almas Tussipov"
-date: "2025-09-20"
-format:
-  html:
-    theme: journal
-    toc: true
+title: "About"
 ---
 
-# Hello, World!
+::: {.columns .hero}
+::: {.column width="34%"}
+<img src="assets/Photo_Almas_Tussipov.jpg" class="profile-img" alt="Almas Tussipov">
+:::
 
-Welcome to my Quarto website.
+::: {.column width="66%"}
+## About Me
 
-## About Me (quick intro)
-
-I’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University).  
+I’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University).
 I’ve led budgeting, reporting, and process-improvement initiatives, and I enjoy pairing data analysis with practical decision-making.
 
-- **Current**: Graduate student, Boston University (Applied Business Analytics)
-- **Previously**: Finance Manager at **BTS Digital Venture**; Finance & Operations Manager at **EDMAR GROUP LLP**; Associate at **PwC**
-- **Skills**: Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking
-- **Languages**: Kazakh (Native), English (Advanced), Russian (Advanced)
+- **Current:** Graduate student, Boston University (Applied Business Analytics)
+- **Previously:** Finance Manager at **BTS Digital Venture**; Finance & Operations Manager at **EDMAR GROUP LLP**; Associate at **PwC**
+- **Skills:** Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking
+- **Languages:** Kazakh (Native), English (Advanced), Russian (Advanced)
 
-👉 See the **About** page for my full CV.
+:::
+:::
+
+::: {.columns .cards style="gap: 16px; margin-top: 18px;"}
+::: {.column}
+### Focus
+- FP&A and budgeting  
+- Analytics & BI  
+- Process improvement  
+:::
+
+::: {.column}
+### Tools
+- Python, SQL  
+- Excel, Power BI / Tableau  
+- Git, Quarto  
+:::
+
+::: {.column}
+### Strengths
+- Structured problem solving  
+- Data-driven decision making  
+- Process optimization & controls  
+:::
+:::
+
+***
+
+::: {.columns style="margin-top: 28px;"}
+::: {.column width="50%"}
+:::
+::: {.column width="50%" style="text-align: right;"}
+[Next: Projects →](projects.qmd){.btn .btn-primary}
+:::
+:::

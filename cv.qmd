@@ -1,22 +1,17 @@
 ---
-title: "About"
-format:
-  html:
-    theme: journal
-    toc: true
+title: "CV"
 ---
+::: {.cv-header}
+
+[Download CV (PDF)](assets/Almas_Tussipov_CV.pdf){.btn .btn-primary}
+:::
+
 
 # Almas Tussipov
 
 **Finance Manager · Business Analyst**
 
-::: {.contact}
-- <i class="fa-solid fa-envelope"></i> [almasnu@bu.edu](mailto:almasnu@bu.edu)
-- <i class="fa-solid fa-phone"></i> [+1 617 518 1108](tel:+16175181108)
-- <i class="fa-solid fa-location-dot"></i> 202 Mill Road, Everett MA
-- <i class="fa-brands fa-linkedin"></i> [linkedin.com/in/almas-tussipov](https://www.linkedin.com/in/almas-tussipov)
 
-:::
 
 ---
 
@@ -59,3 +54,14 @@ Finance manager and business analyst with experience leading budgeting, analytic
 
 ## <i class="fa-solid fa-heart"></i> Interests & Hobbies
 Ironman race participant (2022), Tennis, Running, Swimming
+
+---
+
+::: {.columns style="margin-top: 28px;"}
+::: {.column width="50%"}
+[← Back: Projects](projects.qmd){.btn .btn-outline-primary}
+:::
+::: {.column width="50%" style="text-align: right;"}
+[Next: Contact →](contact.qmd){.btn .btn-primary}
+:::
+:::

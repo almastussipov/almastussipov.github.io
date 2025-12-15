@@ -1,0 +1,25 @@
+---
+title: "Welcome to My Website"
+author: "Almas Tussipov"
+date: "2025-09-20"
+format:
+  html:
+    theme: journal
+    toc: true
+---
+
+# Hello, World!
+
+Welcome to my Quarto website.
+
+## About Me (quick intro)
+
+I’m a finance manager and business analyst (MS in Applied Business Analytics, Boston University).  
+I’ve led budgeting, reporting, and process-improvement initiatives, and I enjoy pairing data analysis with practical decision-making.
+
+- **Current**: Graduate student, Boston University (Applied Business Analytics)
+- **Previously**: Finance Manager at **BTS Digital Venture**; Finance & Operations Manager at **EDMAR GROUP LLP**; Associate at **PwC**
+- **Skills**: Financial & statistical analysis, financial modeling, business intelligence tools, project management, strategic thinking
+- **Languages**: Kazakh (Native), English (Advanced), Russian (Advanced)
+
+👉 See the **About** page for my full CV.

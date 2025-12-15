@@ -1,0 +1,18 @@
+::: {.contact}
+- <i class="fa-solid fa-envelope"></i> [almasnu@bu.edu](mailto:almasnu@bu.edu)
+- <i class="fa-solid fa-phone"></i> [+1 617 518 1108](tel:+16175181108)
+- <i class="fa-solid fa-location-dot"></i> 202 Mill Road, Everett MA
+- <i class="fa-brands fa-linkedin"></i> [linkedin.com/in/almas-tussipov](https://www.linkedin.com/in/almas-tussipov)
+
+:::
+
+---
+
+::: {.columns style="margin-top: 28px;"}
+::: {.column width="50%"}
+[← Back: CV](cv.qmd){.btn .btn-outline-primary}
+:::
+::: {.column width="50%" style="text-align: right;"}
+[Back to About ↑](about.qmd){.btn .btn-outline-secondary}
+:::
+:::

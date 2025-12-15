@@ -1,14 +1,26 @@
 project:
   type: website
+  output-dir: docs
+
+
+execute:
+  enabled: false
 
 website:
-  title: "ALMASTUSSIPOV"
+  title: ""
   navbar:
+    title: ""
     left:
       - href: index.qmd
-        text: Home
-      - href: about.qmd
         text: About
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+
+
 
 format:
   html:
