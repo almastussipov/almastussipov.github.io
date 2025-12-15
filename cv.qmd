@@ -57,6 +57,8 @@ Ironman race participant (2022), Tennis, Running, Swimming
 
 ---
 
+***
+
 ::: {.columns style="margin-top: 28px;"}
 ::: {.column width="50%"}
 [← Back: Projects](projects.qmd){.btn .btn-outline-primary}
