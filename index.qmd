@@ -50,6 +50,6 @@ I’ve led budgeting, reporting, and process-improvement initiatives, and I enjo
 ::: {.column width="50%"}
 :::
 ::: {.column width="50%" style="text-align: right;"}
-[Next: CV →](cv.qmd){.btn .btn-primary}
+[Next: CV →](cv.html){.btn .btn-primary}
 :::
 :::
