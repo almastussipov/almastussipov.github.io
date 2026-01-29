@@ -11,16 +11,15 @@ execute:
 
 website:
   title: ""
+  page-navigation: false   # ⬅️ IMPORTANT (kills Home)
   navbar:
     title: ""
     left:
-      - href: index.qmd
+      - href: index.html
         text: About
-      # - href: projects.qmd
-      #   text: Projects
-      - href: cv.qmd
+      - href: cv.html
         text: CV
-      - href: contact.qmd
+      - href: contact.html
         text: Contact
 
 format:

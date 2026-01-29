@@ -10,9 +10,9 @@
 
 ::: {.columns style="margin-top: 28px;"}
 ::: {.column width="50%"}
-[← Back: CV](cv.qmd){.btn .btn-outline-primary}
+[← Back: CV](cv.html){.btn .btn-outline-primary}
 :::
 ::: {.column width="50%" style="text-align: right;"}
-[Back to About ↑](index.qmd){.btn .btn-outline-secondary}
+[Back to About ↑](index.html){.btn .btn-outline-secondary}
 :::
 :::
