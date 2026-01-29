@@ -3,6 +3,8 @@ title: "Assignment 01"
 subtitle: "System Information Proof"
 author: "Almas Tussipov"
 format: docx
+execute: 
+  enabled: true
 ---
 
 ```{python}
