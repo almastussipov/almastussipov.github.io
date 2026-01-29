@@ -1,25 +1,20 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - index.qmd
-    - cv.qmd
-    - contact.qmd
 
 execute:
   enabled: false
 
 website:
-  title: ""
+  title: "ALMASTUSSIPOV"
   page-navigation: false
   navbar:
-    title: ""
     left:
-      - href: index.html
-        text: About
-      - href: cv.html
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
         text: CV
-      - href: contact.html
+      - href: contact.qmd
         text: Contact
 
 format:
