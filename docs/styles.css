@@ -115,11 +115,9 @@ main {
   margin-bottom: 24px;
 }
 
-/* Make wide tables scrollable */
-table {
-  display: block;
+/* Make code blocks scrollable */
+pre {
   overflow-x: auto;
-  white-space: normal;
+  white-space: pre;
   max-width: 100%;
 }
-
