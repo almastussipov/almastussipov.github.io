@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="install-load-packages" class="level2">
 <h2 class="anchored" data-anchor-id="install-load-packages">0. Install &amp; Load Packages</h2>
-<div id="fc0ad270" class="cell" data-execution_count="1">
+<div id="e2b9f764" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-stdout">
 <pre><code>All packages loaded.</code></pre>
 </div>
@@ -230,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="download-load-raw-data" class="level2">
 <h2 class="anchored" data-anchor-id="download-load-raw-data">1. Download &amp; Load Raw Data</h2>
-<div id="1a178107" class="cell" data-execution_count="2">
+<div id="6b95f2f9" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-stdout">
 <pre><code>File already exists: lightcast_2024.csv
 Raw shape: 72,498 rows × 131 columns</code></pre>
@@ -242,7 +242,7 @@ Raw shape: 72,498 rows × 131 columns</code></pre>
 <h2 class="anchored" data-anchor-id="raw-data-inspection">2. Raw Data Inspection</h2>
 <section id="column-list-dtypes" class="level3">
 <h3 class="anchored" data-anchor-id="column-list-dtypes">2.1 Column List &amp; Dtypes</h3>
-<div id="d60f7968" class="cell" data-execution_count="3">
+<div id="d612872a" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-stdout">
 <pre><code>Total columns: 131
 
@@ -388,7 +388,7 @@ All columns:
 </section>
 <section id="missing-value-profile" class="level3">
 <h3 class="anchored" data-anchor-id="missing-value-profile">2.2 Missing Value Profile</h3>
-<div id="d7782127" class="cell" data-execution_count="4">
+<div id="d15d406a" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-stdout">
 <pre><code>Columns with missing values:
                                     missing_count  missing_pct
@@ -528,7 +528,7 @@ DUPLICATES                                     22         0.03</code></pre>
 </section>
 <section id="missing-value-heatmap" class="level3">
 <h3 class="anchored" data-anchor-id="missing-value-heatmap">2.3 Missing Value Heatmap</h3>
-<div id="4145748b" class="cell" data-execution_count="5">
+<div id="5b65e7d1" class="cell" data-execution_count="5">
 <div class="cell-output cell-output-display">
 <pre><code>&lt;Figure size 1344x576 with 0 Axes&gt;</code></pre>
 </div>
@@ -543,7 +543,7 @@ DUPLICATES                                     22         0.03</code></pre>
 </section>
 <section id="basic-statistics" class="level3">
 <h3 class="anchored" data-anchor-id="basic-statistics">2.4 Basic Statistics</h3>
-<div id="4459019d" class="cell" data-execution_count="6">
+<div id="aadd0cbf" class="cell" data-execution_count="6">
 <div class="cell-output cell-output-stdout">
 <pre><code>=== Numeric Columns ===
 
@@ -1108,7 +1108,7 @@ Enter anybination of title, descr'
 </div>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_25909/1561318075.py:5: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+<pre><code>/tmp/ipykernel_27414/1561318075.py:5: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
 See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
   for c in df_raw.select_dtypes("object").columns:</code></pre>
 </div>
@@ -1118,7 +1118,7 @@ See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-mi
 </section>
 <section id="data-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="data-cleaning">3. Data Cleaning</h2>
-<div id="8126ce27" class="cell" data-execution_count="7">
+<div id="58572462" class="cell" data-execution_count="7">
 <div class="cell-output cell-output-stdout">
 <pre><code>Starting shape: (72498, 131)</code></pre>
 </div>
@@ -1132,7 +1132,7 @@ See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-mi
 <li><code>SOC_2021_2</code> through <code>SOC_2021_5</code> (and <code>_NAME</code> variants) — current occupation classification</li>
 <li>All <code>LOT_*</code> occupation taxonomy columns</li>
 </ul>
-<div id="db735b48" class="cell" data-execution_count="8">
+<div id="2231c464" class="cell" data-execution_count="8">
 <div class="cell-output cell-output-stdout">
 <pre><code>Dropped 18 columns: ['ID', 'URL', 'ACTIVE_URLS', 'ACTIVE_SOURCES_INFO', 'DUPLICATES', 'LAST_UPDATED_TIMESTAMP', 'LAST_UPDATED_DATE', 'NAICS2', 'NAICS3', 'NAICS4', 'NAICS5', 'NAICS6', 'SOC_2', 'SOC_2_NAME', 'SOC_3', 'SOC_3_NAME', 'SOC_5', 'SOC_5_NAME']
 Shape after step 3.1: (72498, 113)</code></pre>
@@ -1143,7 +1143,7 @@ Shape after step 3.1: (72498, 113)</code></pre>
 <h3 class="anchored" data-anchor-id="drop-high-missing-columns-with-salary-protection">3.2 Drop High-Missing Columns (with Salary Protection)</h3>
 <p>We drop columns where <strong>more than 50 % of values are missing</strong>, but <strong>explicitly protect</strong> salary and education columns from this rule.</p>
 <p><strong>Why protect salary columns?</strong> <code>SALARY</code>, <code>SALARY_FROM</code>, and <code>SALARY_TO</code> are each ~55–58 % missing because many employers choose not to post salary information — this is normal for job postings data, not a data quality issue. The remaining ~42 % (≈ 30,000 rows) provides a sufficient sample for salary analysis. Dropping them would silently break all downstream salary work.</p>
-<div id="56149af8" class="cell" data-execution_count="9">
+<div id="077e6d1b" class="cell" data-execution_count="9">
 <div class="cell-output cell-output-stdout">
 <pre><code>Protected columns: ['SALARY', 'SALARY_FROM', 'SALARY_TO', 'ORIGINAL_PAY_PERIOD', 'MIN_YEARS_EXPERIENCE', 'MAX_YEARS_EXPERIENCE', 'LIGHTCAST_SECTORS', 'LIGHTCAST_SECTORS_NAME', 'MIN_EDULEVELS', 'MIN_EDULEVELS_NAME', 'MAX_EDULEVELS', 'MAX_EDULEVELS_NAME']
 Dropped 0 high-missing non-protected columns.
@@ -1154,7 +1154,7 @@ Shape after step 3.2: (72498, 113)</code></pre>
 <section id="remove-duplicate-postings" class="level3">
 <h3 class="anchored" data-anchor-id="remove-duplicate-postings">3.3 Remove Duplicate Postings</h3>
 <p>We deduplicate on the combination of job title + company + state + posting date. This removes re-posted or syndicated listings that represent the same position.</p>
-<div id="5830ee5e" class="cell" data-execution_count="10">
+<div id="df221357" class="cell" data-execution_count="10">
 <div class="cell-output cell-output-stdout">
 <pre><code>Deduplication key: ['TITLE_RAW', 'COMPANY_NAME', 'STATE_NAME', 'POSTED']
 Removed 4,926 duplicate rows (6.8% of pre-dedup total).
@@ -1168,7 +1168,7 @@ Shape after step 3.3: (67572, 113)</code></pre>
 <blockquote class="blockquote">
 <p><strong>Important:</strong> Missing salary values are left as <code>NaN</code> — we do <strong>not</strong> impute them with the median or mean. All downstream salary analyses should use <code>.dropna(subset=["SALARY_MID"])</code> or filter to <code>df[df["SALARY_MID"].notna()]</code> to work only with real data, preserving the true salary distribution.</p>
 </blockquote>
-<div id="cc990ef9" class="cell" data-execution_count="11">
+<div id="29ac98a0" class="cell" data-execution_count="11">
 <div class="cell-output cell-output-stdout">
 <pre><code>Created SALARY_MID = (SALARY_FROM + SALARY_TO) / 2  [fallback: SALARY]
 
@@ -1182,7 +1182,7 @@ Mean:             $114,245</code></pre>
 <section id="fill-categorical-missing-values" class="level3">
 <h3 class="anchored" data-anchor-id="fill-categorical-missing-values">3.5 Fill Categorical Missing Values</h3>
 <p>Remaining <code>NaN</code> values in key categorical columns are replaced with the string <code>"Unknown"</code> so they appear explicitly in charts and model features rather than being silently excluded.</p>
-<div id="a3586cf9" class="cell" data-execution_count="12">
+<div id="5095dcd0" class="cell" data-execution_count="12">
 <div class="cell-output cell-output-stdout">
 <pre><code>Filled 'Unknown' in:
   NAICS_2022_6_NAME                              (17 values filled)
@@ -1197,7 +1197,7 @@ Mean:             $114,245</code></pre>
   LIGHTCAST_SECTORS_NAME                         (51,139 values filled)</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>/tmp/ipykernel_25909/2217022098.py:18: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+<pre><code>/tmp/ipykernel_27414/2217022098.py:18: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment using an inplace method.
 Such inplace method never works to update the original DataFrame or Series, because the intermediate object on which we are setting values always behaves as a copy (due to Copy-on-Write).
 
 For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' instead, to perform the operation inplace on the original object, or try to avoid an inplace operation using 'df[col] = df[col].method(value)'.
@@ -1212,7 +1212,7 @@ See the documentation for a more detailed explanation: https://pandas.pydata.org
 <section id="column-reference-guide" class="level2">
 <h2 class="anchored" data-anchor-id="column-reference-guide">4. Column Reference Guide</h2>
 <p>A quick-reference map of the most useful columns for downstream analysis.</p>
-<div id="22de5d25" class="cell" data-execution_count="13">
+<div id="f5b42195" class="cell" data-execution_count="13">
 <div class="cell-output cell-output-stdout">
 <pre><code>Variable            Resolved Column                                Coverage
 -------------------------------------------------------------------------------------
@@ -1236,7 +1236,7 @@ See the documentation for a more detailed explanation: https://pandas.pydata.org
 </section>
 <section id="cleaned-dataset-summary" class="level2">
 <h2 class="anchored" data-anchor-id="cleaned-dataset-summary">5. Cleaned Dataset Summary</h2>
-<div id="543dff28" class="cell" data-execution_count="14">
+<div id="22f9f322" class="cell" data-execution_count="14">
 <div class="cell-output cell-output-stdout">
 <pre><code>============================================================
   CLEANED DATASET SUMMARY
@@ -1373,7 +1373,7 @@ See the documentation for a more detailed explanation: https://pandas.pydata.org
 </section>
 <section id="appendix-full-column-list-cleaned" class="level2">
 <h2 class="anchored" data-anchor-id="appendix-full-column-list-cleaned">Appendix: Full Column List (Cleaned)</h2>
-<div id="6254518a" class="cell" data-execution_count="15">
+<div id="d3522ada" class="cell" data-execution_count="15">
 <div class="cell-output cell-output-stdout">
 <pre><code>All 114 columns in cleaned dataset:
 

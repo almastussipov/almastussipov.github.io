@@ -37,7 +37,7 @@ main {
   border-radius: 28px;
   box-shadow: 0 20px 50px rgba(0,0,0,.08);
   margin: 32px auto 48px;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 /* =========================
