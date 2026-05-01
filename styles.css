@@ -113,3 +113,12 @@ main {
   justify-content: space-between;
   margin-bottom: 24px;
 }
+
+/* Make wide tables scrollable */
+.table-responsive, table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
