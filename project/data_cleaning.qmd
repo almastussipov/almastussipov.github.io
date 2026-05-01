@@ -1,11 +1,6 @@
 ---
 title: "Data Cleaning & Preprocessing"
 author: "GROUP IV"
-format:
-  html:
-    toc: true
-    theme: cosmo
-    embed-resources: true
 execute:
   echo: false
   eval: true
