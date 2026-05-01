@@ -115,10 +115,10 @@ main {
 }
 
 /* Make wide tables scrollable */
-.table-responsive, table {
+table {
   display: block;
   overflow-x: auto;
-  white-space: nowrap;
+  white-space: normal;
   max-width: 100%;
 }
 
