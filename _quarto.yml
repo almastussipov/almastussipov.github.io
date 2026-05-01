@@ -12,6 +12,20 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: Projects
+        menu:
+          - href: project/index.qmd
+            text: "Overview"
+          - href: project/data_cleaning.qmd
+            text: "Data Preparation"
+          - href: project/eda.qmd
+            text: "EDA"
+          - href: project/skill_gap_analysis.qmd
+            text: "Skill Gap Analysis"
+          - href: project/ml_methods.qmd
+            text: "ML Methods"
+          - href: project/career_plan4.qmd
+            text: "Key Findings"
       - href: cv.qmd
         text: CV
       - href: contact.qmd
