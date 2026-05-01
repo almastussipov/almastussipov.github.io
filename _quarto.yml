@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 execute:
-  enabled: false
+  enabled: true
 
 website:
   title: "ALMASTUSSIPOV"
