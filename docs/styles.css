@@ -127,3 +127,10 @@ pre {
   max-width: 100%;
   padding: 24px;
 }
+
+/* Scrollable tables */
+.cell-output table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
