@@ -84,9 +84,9 @@ print(f"Raw shape: {df_raw.shape[0]:,} rows × {df_raw.shape[1]} columns")
 print(f"Total columns: {df_raw.shape[1]}")
 print(f"\nDtype summary:")
 print(df_raw.dtypes.value_counts().to_string())
-print(f"\nAll columns:")
-for c in df_raw.columns:
-    print(f"  {c:<50s}  [{df_raw[c].dtype}]")
+#print(f"\nAll columns:")
+#for c in df_raw.columns:
+#    print(f"  {c:<50s}  [{df_raw[c].dtype}]")
 ```
 
 ### 2.2 Missing Value Profile
@@ -103,8 +103,14 @@ missing = pd.DataFrame({
     "missing_pct":   df_raw.isnull().mean() * 100
 }).sort_values("missing_pct", ascending=False)
 
-print("Columns with missing values:")
-print(missing[missing["missing_count"] > 0].to_string())
+missing_top = (
+    missing[missing["missing_count"] > 0]
+    .sort_values("missing_pct", ascending=False)
+    .head(30)
+    .round(2)
+)
+
+missing_top
 ```
 
 ### 2.3 Missing Value Heatmap
@@ -121,13 +127,34 @@ plt.show()
 
 ```{python}
 print("=== Numeric Columns ===")
-display(df_raw.describe(include=[np.number]).T)
+desc = (
+    df_raw
+    .describe(include=[np.number])
+    .T
+    .round(2)
+    .head(20)
+)
 
 print("\n=== Object Columns (sample top value) ===")
-for c in df_raw.select_dtypes("object").columns:
-    n   = df_raw[c].nunique()
+rows = []
+
+for c in df_raw.select_dtypes(include=["object", "string"]).columns:
+    n = df_raw[c].nunique()
     top = df_raw[c].value_counts().index[0] if n > 0 else "N/A"
-    print(f"  {c:<45s}  unique={n:6,}  top='{str(top)[:50]}'")
+
+    rows.append({
+        "column": c,
+        "unique": n,
+        "top": str(top)[:30]
+    })
+
+obj_summary = (
+    pd.DataFrame(rows)
+    .sort_values("unique", ascending=False)
+    .head(20)
+)
+
+obj_summary
 ```
 
 ---
